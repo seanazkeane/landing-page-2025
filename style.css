@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 144px;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.hero-block {
+    padding: 60px 144px;
+    background-color: #1F2937;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+}
+
+.hero-block-left, .hero-block-right {
+    padding: 24px 0;
+}
+
+.hero-block-left h1 {
+    margin-top : 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-block-left p {
+    max-width: 500px;
+}
+
+.hero-block-left p, .nav-item {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+button {
+    all: unset;
+  }
+
+.button-primary {
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+}
+
+.image-container {
+    background-color: rgb(109 116 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 100%;
+    width: 100%;
+}
+
+.item-cards-block {
+    padding: 32px 144px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    margin: 36px 0;
+    padding: 0 72px;
+}
+
+.item-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: 0 10px;
+}
+
+.quote-block {
+    padding: 60px 144px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    padding: 0 72px;
+}
+
+.quote-top p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quote-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-bottom p {
+    font-weight: bold;
+}
+
+.cross-sell-block {
+    padding: 72px 144px;
+}
+
+.cross-sell-container {
+    background-color: #3882F6;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 36px 72px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.cross-sell-heading {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cross-sell-para {
+    font-weight: 12px;
+    font-weight: lighter;
+}
+
+.button-secondary {
+    border-radius: 6px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 32px;
+}
+
+.button-secondary:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.footer-text {
+    font-weight: 300;
+    font-size: 14px;
+}
